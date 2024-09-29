@@ -1,0 +1,6 @@
+framework module Pods_elinexet_ios_test {
+  umbrella header "Pods-elinexet ios test-umbrella.h"
+
+  export *
+  module * { export * }
+}

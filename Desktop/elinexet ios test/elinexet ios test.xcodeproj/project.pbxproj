@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227BD3F12CA92F9C0051CD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227BD3E52CA92F9C0051CD49 /* LaunchScreen.storyboard */; };
+		227BD3F22CA92F9C0051CD49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227BD3E72CA92F9C0051CD49 /* Main.storyboard */; };
+		227BD3F32CA92F9C0051CD49 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227BD3EA2CA92F9C0051CD49 /* ImageCell.xib */; };
+		227BD3F42CA92F9C0051CD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227BD3ED2CA92F9C0051CD49 /* Assets.xcassets */; };
+		227BD3F62CA92F9C0051CD49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BD3E22CA92F9C0051CD49 /* ViewController.swift */; };
+		227BD3F72CA92F9C0051CD49 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BD3E92CA92F9C0051CD49 /* ImageCell.swift */; };
+		227BD3F82CA92F9C0051CD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BD3EC2CA92F9C0051CD49 /* AppDelegate.swift */; };
+		227BD3F92CA92F9C0051CD49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BD3EF2CA92F9C0051CD49 /* SceneDelegate.swift */; };
+		D9F47424B183823E366E4030 /* Pods_elinexet_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF471256458D8AFF09FC69F6 /* Pods_elinexet_ios_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227BD3BF2CA851400051CD49 /* elinexet ios test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "elinexet ios test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227BD3E22CA92F9C0051CD49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227BD3E42CA92F9C0051CD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227BD3E62CA92F9C0051CD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227BD3E92CA92F9C0051CD49 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		227BD3EA2CA92F9C0051CD49 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		227BD3EC2CA92F9C0051CD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227BD3ED2CA92F9C0051CD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227BD3EE2CA92F9C0051CD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227BD3EF2CA92F9C0051CD49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C136EA6D0A1F5E239267D3D /* Pods-elinexet ios test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elinexet ios test.release.xcconfig"; path = "Target Support Files/Pods-elinexet ios test/Pods-elinexet ios test.release.xcconfig"; sourceTree = "<group>"; };
+		84FCA62DE165D506C7FCC313 /* Pods-elinexet ios test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-elinexet ios test.debug.xcconfig"; path = "Target Support Files/Pods-elinexet ios test/Pods-elinexet ios test.debug.xcconfig"; sourceTree = "<group>"; };
+		DF471256458D8AFF09FC69F6 /* Pods_elinexet_ios_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_elinexet_ios_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227BD3BC2CA851400051CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F47424B183823E366E4030 /* Pods_elinexet_ios_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227BD3B62CA851400051CD49 = {
+			isa = PBXGroup;
+			children = (
+				227BD3F02CA92F9C0051CD49 /* elinexet ios test */,
+				227BD3C02CA851400051CD49 /* Products */,
+				CAA3AE63039932750F01FDA2 /* Pods */,
+				FB7B8A876FF023585036340C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		227BD3C02CA851400051CD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227BD3BF2CA851400051CD49 /* elinexet ios test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227BD3E32CA92F9C0051CD49 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				227BD3E22CA92F9C0051CD49 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		227BD3E82CA92F9C0051CD49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				227BD3EB2CA92F9C0051CD49 /* CollectionViewCell */,
+				227BD3E52CA92F9C0051CD49 /* LaunchScreen.storyboard */,
+				227BD3E72CA92F9C0051CD49 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		227BD3EB2CA92F9C0051CD49 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				227BD3E92CA92F9C0051CD49 /* ImageCell.swift */,
+				227BD3EA2CA92F9C0051CD49 /* ImageCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		227BD3F02CA92F9C0051CD49 /* elinexet ios test */ = {
+			isa = PBXGroup;
+			children = (
+				227BD3E32CA92F9C0051CD49 /* ViewController */,
+				227BD3E82CA92F9C0051CD49 /* View */,
+				227BD3EC2CA92F9C0051CD49 /* AppDelegate.swift */,
+				227BD3ED2CA92F9C0051CD49 /* Assets.xcassets */,
+				227BD3EE2CA92F9C0051CD49 /* Info.plist */,
+				227BD3EF2CA92F9C0051CD49 /* SceneDelegate.swift */,
+			);
+			path = "elinexet ios test";
+			sourceTree = "<group>";
+		};
+		CAA3AE63039932750F01FDA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84FCA62DE165D506C7FCC313 /* Pods-elinexet ios test.debug.xcconfig */,
+				3C136EA6D0A1F5E239267D3D /* Pods-elinexet ios test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB7B8A876FF023585036340C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF471256458D8AFF09FC69F6 /* Pods_elinexet_ios_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227BD3BE2CA851400051CD49 /* elinexet ios test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227BD3D22CA851410051CD49 /* Build configuration list for PBXNativeTarget "elinexet ios test" */;
+			buildPhases = (
+				E9B5128DCA7CF78203323655 /* [CP] Check Pods Manifest.lock */,
+				227BD3BB2CA851400051CD49 /* Sources */,
+				227BD3BC2CA851400051CD49 /* Frameworks */,
+				227BD3BD2CA851400051CD49 /* Resources */,
+				D5C943DB53AB1FBF086200F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "elinexet ios test";
+			productName = "elinexet ios test";
+			productReference = 227BD3BF2CA851400051CD49 /* elinexet ios test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227BD3B72CA851400051CD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					227BD3BE2CA851400051CD49 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 227BD3BA2CA851400051CD49 /* Build configuration list for PBXProject "elinexet ios test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227BD3B62CA851400051CD49;
+			productRefGroup = 227BD3C02CA851400051CD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227BD3BE2CA851400051CD49 /* elinexet ios test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227BD3BD2CA851400051CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227BD3F12CA92F9C0051CD49 /* LaunchScreen.storyboard in Resources */,
+				227BD3F22CA92F9C0051CD49 /* Main.storyboard in Resources */,
+				227BD3F32CA92F9C0051CD49 /* ImageCell.xib in Resources */,
+				227BD3F42CA92F9C0051CD49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5C943DB53AB1FBF086200F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-elinexet ios test/Pods-elinexet ios test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-elinexet ios test/Pods-elinexet ios test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-elinexet ios test/Pods-elinexet ios test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B5128DCA7CF78203323655 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-elinexet ios test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227BD3BB2CA851400051CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227BD3F62CA92F9C0051CD49 /* ViewController.swift in Sources */,
+				227BD3F72CA92F9C0051CD49 /* ImageCell.swift in Sources */,
+				227BD3F82CA92F9C0051CD49 /* AppDelegate.swift in Sources */,
+				227BD3F92CA92F9C0051CD49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		227BD3E52CA92F9C0051CD49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227BD3E42CA92F9C0051CD49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		227BD3E72CA92F9C0051CD49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227BD3E62CA92F9C0051CD49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227BD3D32CA851410051CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FCA62DE165D506C7FCC313 /* Pods-elinexet ios test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "elinexet ios test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tainguyen.elinexet-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227BD3D42CA851410051CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C136EA6D0A1F5E239267D3D /* Pods-elinexet ios test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "elinexet ios test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tainguyen.elinexet-ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		227BD3D52CA851410051CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		227BD3D62CA851410051CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227BD3BA2CA851400051CD49 /* Build configuration list for PBXProject "elinexet ios test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227BD3D52CA851410051CD49 /* Debug */,
+				227BD3D62CA851410051CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227BD3D22CA851410051CD49 /* Build configuration list for PBXNativeTarget "elinexet ios test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227BD3D32CA851410051CD49 /* Debug */,
+				227BD3D42CA851410051CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227BD3B72CA851400051CD49 /* Project object */;
+}
